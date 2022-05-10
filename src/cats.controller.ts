@@ -8,7 +8,6 @@ import {
   Query,
   Body,
 } from '@nestjs/common';
-import { Request } from 'express';
 
 import { GetCatsDto, CreateCatDto, UpdateCatDto } from './dto';
 
